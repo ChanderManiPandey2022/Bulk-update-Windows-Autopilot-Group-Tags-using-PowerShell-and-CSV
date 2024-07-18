@@ -26,6 +26,10 @@
 
 $csvFilePath = "c:\windows\temp\serials.csv"
 
+$tenant = “abc.onmicrosoft.com”
+$clientId = “b2b2d492-6ec6-4276-a027-8acfea534”
+$clientSecret = “0G18Q~e2uJFXDfb_T4uHnrXS9NDRnKwQo_dxH”
+
 #=======================User Input End==============================================================================
  
 cls
@@ -51,11 +55,7 @@ ELSE
     Import-Module Microsoft.Graph.Intune -Force
 }
 
-$tenant = “abc.onmicrosoft.com”
 $authority = “https://login.windows.net/$tenant”
-$clientId = “b2b2d492-6ec6-4276-a027-8acfea534”
-$clientSecret = “0G18Q~e2uJFXDfb_T4uHnrXS9NDRnKwQo_dxH”
-
 Update-MSGraphEnvironment -AppId $clientId -Quiet
 Update-MSGraphEnvironment -AuthUrl $authority -Quiet
 Connect-MSGraph -ClientSecret $ClientSecret 
