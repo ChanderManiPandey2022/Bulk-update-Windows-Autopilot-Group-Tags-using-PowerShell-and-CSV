@@ -27,9 +27,10 @@
 $csvFilePath = "c:\windows\temp\serials.csv"
 
 $tenant = “abc.onmicrosoft.com”                                  # https://www.youtube.com/watch?v=h7BwDBtBo8Q
-$clientId = “b2b2d492-6ec6-4276-a027-8acfea534”                  # https://www.youtube.com/watch?v=h7BwDBtBo8Q
-$clientSecret = “0G18Q~e2uJFXDfb_T4uHnrXS9NDRnKwQo_dxH”          # https://www.youtube.com/watch?v=h7BwDBtBo8Q
+$clientId = “b2b2d492------4276-a027-8acfea534”                  # https://www.youtube.com/watch?v=h7BwDBtBo8Q
+$clientSecret = “0G18Q~e2uJFXb_T4uHnrXS9NDRnKwQo_dxH”          # https://www.youtube.com/watch?v=h7BwDBtBo8Q
 
+# For API permissions check .png file .We need DeviceManagementManagedDevices.ReadWrite.All
 #=======================User Input End==============================================================================
  
 cls
