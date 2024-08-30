@@ -11,9 +11,9 @@
 #.NOTES
  
  <#
-  Version:         1.1
+  Version:         1.2
   Author:          Chander Mani Pandey
-  Creation Date:   19 July 2024
+  Creation Date:   30 Aug 2024
   
   Find Author on 
   Youtube:-        https://www.youtube.com/@chandermanipandey8763
@@ -25,7 +25,6 @@
 # Define the CSV file path containing SerialNumber and NewGroupTag
 
 $csvFilePath = "c:\windows\temp\serials.csv"
-
 $tenant = “abc.onmicrosoft.com”                                  # https://www.youtube.com/watch?v=h7BwDBtBo8Q
 $clientId = “b2b2d492------4276-a027-8acfea534”                  # https://www.youtube.com/watch?v=h7BwDBtBo8Q
 $clientSecret = “0G18Q~e2uJFXb_T4uHnrXS9NDRnKwQo_dxH”          # https://www.youtube.com/watch?v=h7BwDBtBo8Q
